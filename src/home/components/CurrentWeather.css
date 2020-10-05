@@ -1,0 +1,25 @@
+.current-weather{
+    color: white;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 15px;
+}
+.current-weather h3{
+    text-align: center;
+    text-transform: capitalize;
+}
+.current-weather img{
+    width: 70px;
+    height: 70px;
+    filter: invert(1);
+}
+.current-weather div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

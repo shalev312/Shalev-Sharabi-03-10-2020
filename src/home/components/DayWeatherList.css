@@ -1,0 +1,11 @@
+
+.day-weather-list{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+@media only screen and (min-width: 850px){
+                .day-weather-list{
+                    flex-direction: row;
+                }
+}

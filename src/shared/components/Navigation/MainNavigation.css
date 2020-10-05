@@ -1,0 +1,29 @@
+.main-navigation__title {
+  color: white;
+}
+
+.main-navigation__title a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-navigation__drawer-nav {
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+
+  .main-navigation__header-nav {
+    display: block;
+  }
+}
+@media only screen and (max-width: 280px){
+  .main-navigation__title {
+    font-size: 1em;
+  }
+}
+@media only screen and (min-width: 280px) and (max-width: 550px){
+  .main-navigation__title {
+    font-size: 1.3em;
+  }
+}

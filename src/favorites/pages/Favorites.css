@@ -1,0 +1,16 @@
+.favorites__content{
+    width: 80%;
+}
+.favorites__content .favorites-header{
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    font-size: 2em;
+}
+.favorites-weather{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}

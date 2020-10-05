@@ -1,0 +1,8 @@
+.favorites-empty {
+    list-style: none;
+    text-align: center;
+}
+.favorites-empty a{
+    color: white;
+
+}
