@@ -11,7 +11,7 @@ const MainNavigation = () => {
     <React.Fragment>
       <MainHeader>
         <h1 className="main-navigation__title">
-          <Link to="/">Herolo Task</Link>
+          <Link to="/">Weather App</Link>
         </h1>
         <nav className="main-navigation__header-nav">
           <NavLinks />
